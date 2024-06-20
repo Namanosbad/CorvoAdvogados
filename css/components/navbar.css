@@ -3,14 +3,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 7;
     background-color: var(--green);
   }
   
   .navbar .navbar__content {
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
+    margin-top: 13px;
   }
   
   .navbar .navbar__content .navbar__links li {
@@ -18,7 +19,7 @@
   }
   
   .navbar .navbar__content .navbar__links li:not(:last-of-type) {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
   
   .navbar .navbar__content .navbar__links a {
