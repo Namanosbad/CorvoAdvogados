@@ -11,8 +11,10 @@
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 13px;
   }
+  .navbar .navbar__content .navbar__links {
+    margin-top: 10px;
+}
   
   .navbar .navbar__content .navbar__links li {
     display: inline-block;
