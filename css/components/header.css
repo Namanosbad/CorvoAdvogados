@@ -1,4 +1,4 @@
-#showcase {
+#inicio {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,19 +13,19 @@
     background-blend-mode: color;
 }
 
-#showcase-container {
+#inicio-container {
     text-align: center;
 }
 
-#showcase-container h2 {
+#inicio-container h2 {
     font-size: 2.5rem;
 }
 
-#showcase-container p {
+#inicio-container p {
     font-size: 5.2rem;
     padding: 10px 0;
 }
 
-#showcase-container {
+#inicio-container {
     padding: 40px;
 }

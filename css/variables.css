@@ -1,16 +1,14 @@
 :root {
     --white: #ffffff;
-    --green: #444442;
-    --gray: #d9d9d9;
+    --gray:  #3f3f3f;
     --black: #000000;
-    --primary-color: #1b1211;
+    --primary-color: #000000;
     --secondary-color: #e42c07;
     --dark-secondary-color: #3c415c;
     --tertiary-color: #6f9465;
-    --light-tertiary-color: #ec0000 ;
+    --light-tertiary-color: #cccccc;
     --text-color: #343d48;
     --header-background-color: #ffffff;
-  
     --font-family: 'DM Sans', sans-serif;
   }
   
