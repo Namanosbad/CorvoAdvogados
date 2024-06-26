@@ -36,7 +36,6 @@
     font-weight: 700;
     color: var(--primary-color);
     text-align: center;
-
   }
   
   .tertiary-title {
@@ -93,21 +92,22 @@
   }
   
   .mb-s {
-    margin-top: 5rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
   
   .mb-m {
-
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   
   .mb-l {
-    margin-bottom: 4rem;
+    margin-bottom: -40rem;
+    
   }
   
   .mb-xl {
-    margin-bottom: 6rem;
+    margin-bottom: 0rem;
   }
   
   @media only screen and (max-width: 1024px) {

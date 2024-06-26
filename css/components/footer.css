@@ -1,3 +1,30 @@
-.fale-conosco {
-    background-color: var(--green);
-  }
+footer {
+  background-color: var(--green);
+  margin: 0;
+  padding: 0;
+}
+
+footer .footer__content {
+  text-align: center;
+  padding: 2rem 2rem 1rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+footer .footer__content .footer__contact span {
+  display: block;
+  font-weight: 500;
+  margin: 0; 
+}
+
+footer .footer__content ul li {
+  display: inline-block;
+  margin: 0; 
+  padding: 0; 
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+  margin: 0; 
+  padding: 0; 
+}
