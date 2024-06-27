@@ -1,25 +1,25 @@
-.areas{
+.areas {
     background-color: var(--light-tertiary-color);
     scroll-margin-top: 5rem;
 }
 
-.areas .areas__content{
+.areas .areas__content {
     padding: 7rem 4rem 4rem;
     text-align: center;
 }
 
-.areas .areas__content .description{
+.areas .description {
     max-width: 91rem;
     margin: 2rem auto 6rem;
 }
 
-.areas .areas__content ul{
+.areas ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1rem;
 }
 
-.areas .areas__content ul li .image-container{
+.areas .image-container {
     background-color: var(--white);
     padding: 2rem;
     border-radius: 50%;
@@ -32,9 +32,8 @@
     margin: 0 auto;
 }
 
-.areas .areas__content ul li h3{
+.areas h3 {
     font-size: 1.6rem;
     font-weight: 500;
-    margin: 2rem 0 1rem;
+    margin-top: 2rem; 
 }
-
