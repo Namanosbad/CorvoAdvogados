@@ -21,6 +21,12 @@ footer .footer__content ul li {
   display: inline-block;
   margin: 3rem 0 3rem; 
   padding: 0; 
+
+}
+
+footer .footer__content ul li img {
+  margin-top: -1rem;
+  margin-bottom: -3rem;
 }
 
 footer .footer__content .footer__copyright {

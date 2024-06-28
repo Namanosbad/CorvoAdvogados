@@ -14,8 +14,12 @@
 
   }
 
+  .navbar .navbar__content a img {
+    margin-top: 8px;
+  }
+
   .navbar .navbar__content .navbar__links {
-    margin-top: 10px;
+    margin-top: 9px;
 }
   
   .navbar .navbar__content .navbar__links li {
