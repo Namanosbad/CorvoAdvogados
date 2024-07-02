@@ -4,7 +4,7 @@
 }
 
 .areas .areas__content {
-    padding: 7rem 4rem 4rem;
+    padding: 4rem 4rem 4rem;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@
 
 .areas h3 {
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 2rem;
 }
 
@@ -46,7 +46,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.8rem;
     color: var(--primary-color);
 }
 
