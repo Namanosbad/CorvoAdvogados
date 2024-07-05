@@ -41,3 +41,12 @@ iframe {
   border: none;
   margin-top: 2rem;
 }
+
+footer .footer__link {
+  color: #66855e; /* cor do texto */
+  text-decoration: none; /* remover sublinhado padrão */
+}
+
+footer .footer__link:hover {
+  text-decoration: underline; /* adicionar sublinhado ao passar o mouse */
+}
