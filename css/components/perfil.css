@@ -1,0 +1,22 @@
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #perfil-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .story-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .story-content p {
+    margin-bottom: 20px;
+  }
+  
