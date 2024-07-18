@@ -1,0 +1,68 @@
+#contato-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #979696;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+#contato-container h1 {
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px; /* Margem acima do h1 */
+}
+
+#contato-container h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 20px; /* Margem abaixo do h2 */
+}
+
+form {
+  border-radius: 5px;
+  padding: 20px;
+  margin: -1rem auto; 
+  max-width: 400px;
+}
+
+form input,
+form textarea,
+form button {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  color: #fff;
+  background-color: #fffdfd;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3feaf0;
+}
+form p {
+  font-size: 20px; /* Aumenta o tamanho da fonte dos parágrafos */
+}
