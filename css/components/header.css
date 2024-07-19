@@ -5,10 +5,6 @@
     align-items: center;
     color: #eee;
     background: url('/assets/Corvo.jpg') no-repeat center center/cover; 
-
- 
-
-    /* Overlay */
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
 }

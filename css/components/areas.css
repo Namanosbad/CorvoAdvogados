@@ -74,3 +74,8 @@
 .areas__item.hidden {
     display: none;
 }
+
+.tertiary-title:hover{
+    color: #82ac77;
+    text-decoration: underline;
+}
