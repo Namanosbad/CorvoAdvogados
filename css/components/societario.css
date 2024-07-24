@@ -13,16 +13,25 @@ header {
     text-transform: uppercase;
     color: #333; 
   }
+
+  .societario-title {
+    margin: 0;
+    font-size: 28px; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    color: #1f1f1f; 
+    text-shadow: rgba(0, 0, 0, 0.6); 
+  }
   
   #societario-container {
     max-width: 800px; 
     margin: 20px auto; 
     padding: 20px; 
-    background-color: var(--light-tertiary-color); 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 1.9);
+    background-color: #3f3f3f; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1.0);
     border-radius: 5px; 
   }
-  
+
   #societario-container p {
     margin-bottom: 10px;
     line-height: 2;

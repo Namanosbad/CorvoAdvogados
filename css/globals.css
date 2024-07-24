@@ -134,5 +134,8 @@
     h1 {
       font-size: 4.2rem;
     }
+    body{
+      margin-bottom: 10rem;
+    }
   }
   
