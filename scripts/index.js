@@ -12,6 +12,27 @@ const mobileLinks = document.querySelectorAll('.mobile__links a');
 const toggleButton = document.querySelector('#toggleAreas');
 const areasContent = document.querySelector('.areas__content');
 const areasItems = document.querySelectorAll('.areas__item');
+const areasLink = document.querySelector('.navbar a[href="#areas"]');
+
+areasLink.addEventListener('click', function(event) {
+  // Ativar a função do botão toggleButton
+  areasContent.classList.toggle('active');
+  toggleButton.classList.toggle('active');
+  areasItems.forEach(item => {
+    item.classList.toggle('hidden');
+  });
+
+  // Navegar para o href do link
+  setTimeout(() => {
+    const targetId = areasLink.getAttribute('href').substring(1); // Remove o '#'
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  }, 0);
+});
 
 toggleButton.addEventListener('click', function() {
   areasContent.classList.toggle('active');

@@ -4,7 +4,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
- ![CorvoAdvogados](https://github.com/user-attachments/assets/8ea06796-1d07-4868-9a88-6e60a7d34c47)
+![CorvoAdvogados](https://github.com/user-attachments/assets/8ea06796-1d07-4868-9a88-6e60a7d34c47)
 
 
 
