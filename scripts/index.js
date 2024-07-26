@@ -12,19 +12,38 @@ const mobileLinks = document.querySelectorAll('.mobile__links a');
 const toggleButton = document.querySelector('#toggleAreas');
 const areasContent = document.querySelector('.areas__content');
 const areasItems = document.querySelectorAll('.areas__item');
-const areasLink = document.querySelector('.navbar a[href="#areas"]');
+const areasLink = document.querySelector('.navbar a[href="index.html#areas"]');
+
+
+button.addEventListener('click', function() {
+  mobileNavbar.classList.toggle('active');
+});
+
+
+mobileLinks.forEach(link => {
+  link.addEventListener('click', function(event) {
+    mobileNavbar.classList.remove('active'); 
+
+    const targetId = link.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  });
+});
 
 areasLink.addEventListener('click', function(event) {
-  // Ativar a função do botão toggleButton
   areasContent.classList.toggle('active');
   toggleButton.classList.toggle('active');
   areasItems.forEach(item => {
     item.classList.toggle('hidden');
   });
 
-  // Navegar para o href do link
   setTimeout(() => {
-    const targetId = areasLink.getAttribute('href').substring(1); // Remove o '#'
+    const targetId = areasLink.getAttribute('href').substring(1);
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
       targetElement.scrollIntoView({
@@ -34,6 +53,7 @@ areasLink.addEventListener('click', function(event) {
   }, 0);
 });
 
+
 toggleButton.addEventListener('click', function() {
   areasContent.classList.toggle('active');
   toggleButton.classList.toggle('active');
@@ -42,22 +62,6 @@ toggleButton.addEventListener('click', function() {
   });
 });
 
-button.addEventListener('click', function () {
-  mobileNavbar.classList.toggle('active');
-});
-
-mobileLinks.forEach(link => {
-  link.addEventListener('click', function (event) {
-    const targetId = link.getAttribute('href');
-    const targetElement = document.querySelector(targetId); 
-    
-    if (targetElement && !isVisible(targetElement)) {
-      mobileNavbar.classList.remove('active'); 
-    } else {
-      event.preventDefault(); 
-    }
-  });
-});
 
 function isVisible(element) {
   const rect = element.getBoundingClientRect();
@@ -69,8 +73,8 @@ function isVisible(element) {
   );
 }
 
-window.addEventListener('scroll', function(){
-  if(this.window.pageYOffset > 0) {
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 0) {
     navbar.classList.add('active');
   } else {
     navbar.classList.remove('active');
