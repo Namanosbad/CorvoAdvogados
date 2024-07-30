@@ -36,3 +36,14 @@ header {
   margin-bottom: 50px;
   line-height: 2;
 }
+@media (max-width: 600px) {
+  #perfil-container {
+    margin: 10px;
+    padding: 10px; 
+  }
+
+  #story-container {
+    margin: 10px; 
+    padding: 10px; 
+}
+}
