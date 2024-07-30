@@ -14,6 +14,7 @@
     font-size: 1.6rem;
     margin-top: 7rem;
     background-color: var(--header-background-color);
+    overflow-x: hidden; 
   }
   
   ul {
@@ -118,6 +119,9 @@
     h1 {
       font-size: 6rem;
     }
+    body{
+      margin-bottom: 0;
+    }
   }
   
   @media only screen and (max-width: 768px) {
@@ -128,6 +132,9 @@
     .max-width {
       padding: 0 2rem;
     }
+    body{
+      margin-bottom: 0rem;
+    }
   }
   
   @media only screen and (max-width: 425px) {
@@ -135,7 +142,7 @@
       font-size: 4.2rem;
     }
     body{
-      margin-bottom: 10rem;
+      margin-bottom: 0rem;
     }
   }
   
