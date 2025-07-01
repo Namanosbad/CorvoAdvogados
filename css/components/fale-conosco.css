@@ -1,11 +1,14 @@
 #contato-container {
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 10px;
+  max-width: 500px;
+  /* <- Limita o tamanho em telas grandes */
+  width: 100%;
+  /* <- Garante que ele se ajuste em telas pequenas */
+  margin: 40px auto;
+  padding: 20px;
   background-color: #979696;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 #contato-container h1 {
@@ -21,14 +24,15 @@
   font-weight: bold;
   text-transform: uppercase;
   color: #333;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 form {
+  width: 100%;
   border-radius: 5px;
-  padding: 20px;
-  margin: -1rem auto; 
-  max-width: 400px;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 form input,
@@ -38,8 +42,8 @@ form button {
   border: none;
   border-radius: 5px;
   color: #777;
-  font-size: 12px;
-  padding: 10px;
+  font-size: 14px;
+  padding: 12px;
   margin-bottom: 20px;
   width: 100%;
   box-sizing: border-box;
@@ -65,17 +69,27 @@ button:hover {
 }
 
 form p {
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {
   #contato-container {
-    margin: 10px;
-    padding: 10px; 
+    max-width: 80%;
+    width: 100%;
+    padding: 15px;
+    margin: 20px auto;
+    font-size: 13px;
   }
 
-  #contato-container {
-    margin: 10px; 
-    padding: 10px; 
-}
+  form {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    font-size: 13px;
+    padding: 10px;
+  }
 }
