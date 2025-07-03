@@ -1,7 +1,10 @@
 footer {
-  background-color: var(--green);
+  background-color: var(--secondary-color);
+  /* Fundo escuro */
+  color: var(--white);
+  /* Texto branco para bom contraste */
   margin: 0;
-  padding: 0;
+  padding: 2rem 0;
 }
 
 footer .footer__content {
@@ -14,14 +17,16 @@ footer .footer__content {
 footer .footer__content .footer__contact span {
   display: block;
   font-weight: 500;
-  margin: 0; 
+  margin-bottom: 1rem;
+  /* Distância entre os contatos */
+  font-size: 1.4rem;
+  /* Ajuste no tamanho da fonte */
 }
 
 footer .footer__content ul li {
   display: inline-block;
-  margin: 3rem 0 3rem; 
-  padding: 0; 
-
+  margin: 3rem 0 3rem;
+  padding: 0;
 }
 
 footer .footer__content ul li img {
@@ -31,22 +36,42 @@ footer .footer__content ul li img {
 
 footer .footer__content .footer__copyright {
   font-size: 1.4rem;
-  margin: 0; 
-  padding: 0; 
+  margin: 2rem 0;
+  /* Ajuste de margem para o copyright */
+  padding: 0;
 }
 
 iframe {
   width: 85%;
   height: 300px;
-  border: none;
+  border: 2px solid var(--light-tertiary-color);
+  /* Borda suave ao redor do iframe */
+  border-radius: 8px;
+  /* Borda arredondada */
   margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
 }
 
 footer .footer__link {
-  color: #66855e; /* cor do texto */
-  text-decoration: none; /* remover sublinhado padrão */
+  color: var(--gold);
+  /* Dourado para links - destaque */
+  text-decoration: none;
+  /* Remover sublinhado padrão */
+  font-weight: 600;
+  transition: color 0.3s ease;
+  /* Transição suave para a cor */
 }
 
 footer .footer__link:hover {
-  text-decoration: underline; /* adicionar sublinhado ao passar o mouse */
+  text-decoration: underline;
+  /* Sublinha ao passar o mouse */
+  color: var(--white);
+  /* Fica branco no hover para maior destaque */
+}
+
+footer .footer__link:focus {
+  outline: none;
+  border-bottom: 2px solid var(--gold);
+  /* Efeito de foco com borda dourada */
 }

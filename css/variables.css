@@ -1,13 +1,20 @@
 :root {
-    --white: #ffffff;
-    --gray:  #3f3f3f;
-    --black: #000000;
-    --green: #353b33;
-    --primary-color: #000000;
-    --secondary-color: #101a35;
-    --tertiary-color: #6f9465;
-    --light-tertiary-color: #cccccc;
-    --text-color: #343d48;
-    --font-family: 'DM Sans', sans-serif;
-  }
-  
+  --white: #ffffff;
+  --gray: #3f3f3f;
+  --black: #000000;
+  --gold: #d4af37;
+  /* Dourado metálico */
+  --silver: #c0c0c0;
+  /* Prata */
+  --primary-color: #000000;
+  /* Preto para o texto principal */
+  --secondary-color: #101a35;
+  /* Azul marinho ou escuro (se combinar com o logo) */
+  --tertiary-color: #6f9465;
+  /* Verde suave ou algum tom presente no logo */
+  --light-tertiary-color: #cccccc;
+  /* Cinza claro para os fundos */
+  --text-color: #343d48;
+  /* Cor de texto suave */
+  --font-family: 'DM Sans', sans-serif;
+}
