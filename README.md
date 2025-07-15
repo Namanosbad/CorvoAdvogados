@@ -1,57 +1,55 @@
-<h1 align="center">Corvo Advogados</h1> 
-
+<h1 align="center">Website para Escritórios de Advocacia</h1> 
+<div align="center">
+  
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)</p>
+</div>
+<div align="center">
+  <img width="803" height="627" alt="Index" src="https://github.com/user-attachments/assets/50fb9e24-220b-48ac-992f-a72b8c9d0756" />
+</div>
 
-![CorvoAdvogados](https://github.com/user-attachments/assets/8ea06796-1d07-4868-9a88-6e60a7d34c47)
+<div align="center">
+  > 📌 Status: Em desenvolvimento
+</div>
 
 
-
->Status: Developing ⚠️
+---
 
 <h1 align="center">
-  <a href="https://namanosbad.github.io/CorvoAdvogados/">Access on site</a>
+  <a href="https://namanosbad.github.io/CorvoAdvogados/">💻 Acesse o Projeto Online</a>
 </h1>
 
-<p align="center">This is a front-end project where I am developing a responsive site for Corvo Advogados. The design is modern and adaptable to different devices, ensuring a good user experience on both desktops and mobile devices.</p>
-<hr></hr>
+<p align="center">
+  Este projeto foi desenvolvido como parte do meu portfólio. O objetivo é demonstrar minhas habilidades em desenvolvimento front-end, com foco em estrutura semântica, responsividade, organização visual e boa experiência do usuário.
+  <br><br>
+  O layout foi planejado para se adaptar perfeitamente a diferentes tamanhos de tela (desktop, tablet e mobile), utilizando boas práticas de HTML5, CSS3 e JavaScript puro. Além disso, a navegação é intuitiva, com seções bem definidas, botões de ação claros e um design limpo que reforça a proposta profissional do site.
+  <br><br>
+  Este projeto também evidencia minha atenção aos detalhes, como o uso consistente de variáveis CSS, componentes reutilizáveis, animações suaves e elementos visuais que reforçam a identidade da marca fictícia. É um exemplo concreto do tipo de trabalho visual e técnico que posso entregar em projetos reais de sites institucionais e comerciais.
+</p>
 
-<div align="center">
- 
-![image](https://github.com/user-attachments/assets/d126ddbc-5bbf-4be6-95b9-2c59c4fe9016)
+---
+## 🛠 Tecnologias Utilizadas
 
-![image](https://github.com/user-attachments/assets/70157cd6-b975-418e-b42c-c11cd86af8b6)
+- HTML5 semântico
+- CSS3 com variáveis e responsividade
+- JavaScript (manipulação de DOM e slider de imagens)
+- Organização em páginas modulares (index, perfil, contato, etc.)
 
-![image](https://github.com/user-attachments/assets/96694c5b-52e0-4fe1-a7eb-954a5591a9c3)
+---
 
-![image](https://github.com/user-attachments/assets/ff9c597a-e2e8-4e91-b3e0-a35ebe19433c)
-</div>
+## 💼 Objetivo
 
-<h2 align="center"> Perfil </h2>
+Este projeto integra meu portfólio como desenvolvedor front-end, com a proposta de apresentar uma interface moderna, responsiva e com forte apelo visual. Foi pensado para atender às necessidades de negócios locais, pequenos escritórios ou profissionais autônomos que desejam uma presença digital sólida e bem estruturada. A arquitetura do site permite fácil personalização para diferentes nichos de mercado.
 
-<div align="center">
- 
-![historia](https://github.com/user-attachments/assets/6cef21e9-9f45-4f18-84c7-4a45d9b0e19b)
-</div>
+---
 
-<h2 align="center">Contato</h2>
+## 📫 Contato
 
-<div align="center">
- 
-![Contato](https://github.com/user-attachments/assets/d0e9d7c6-780d-460c-9fca-3e9c649dcb82)
+Se você gostou do projeto e quer algo semelhante para sua empresa ou marca pessoal, entre em contato:
 
+- 📧 **Email**: matheus.limamst@gmail.com
+- 💼 **LinkedIn**: [SeuPerfil]([https://linkedin.com/in/seuperfil](https://www.linkedin.com/in/matheuslimamst/))
+- 💬 **WhatsApp**: [Clique aqui](https://api.whatsapp.com/send?phone=5511983679157)
 
-![fale-conosco](https://github.com/user-attachments/assets/71aeb54d-eec9-431f-8d64-cc8906406c52)
-</div>
-
-<h1 align="center">Layout Mobile</h1>
-
-<div align="center">
- 
-![Mobile](https://github.com/user-attachments/assets/0aba594a-57dc-4c74-9cfe-9f8033b19eed)
-</div>
-
-
-
-
+---
