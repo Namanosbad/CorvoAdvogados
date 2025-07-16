@@ -49,7 +49,7 @@ Este projeto integra meu portfólio como desenvolvedor front-end, com a proposta
 Se você gostou do projeto e quer algo semelhante para sua empresa ou marca pessoal, entre em contato:
 
 - 📧 **Email**: matheus.limamst@gmail.com
-- 💼 **LinkedIn**: [SeuPerfil]([https://linkedin.com/in/seuperfil](https://www.linkedin.com/in/matheuslimamst/))
-- 💬 **WhatsApp**: [Clique aqui](https://api.whatsapp.com/send?phone=5511983679157)
+- 💼 **LinkedIn**: [Veja meu perfil](https://www.linkedin.com/in/matheuslimamst/)
+- 💬 **WhatsApp**: [Faça sua cotação](https://api.whatsapp.com/send?phone=5511983679157)
 
 ---
